@@ -153,7 +153,7 @@
 @media (max-width : 767px) {
     .c-img img {
         max-width: 100%;
-        height: auto;
+        height: 146px;
     }
 
     .c-name a {
