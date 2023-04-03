@@ -5,7 +5,7 @@
     left: 0;
     width: 100%;
     padding: 10px;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #00000066;
     backdrop-filter: blur(10px);
 }
 .Navigation ul {
@@ -33,7 +33,7 @@
     text-decoration: none;
     text-align: center;
 }
-.Navigation ul li.active a{
+.Navigation ul li a.active{
     color: rgb(255, 166, 0);
 }
 .Cart_Navigate {

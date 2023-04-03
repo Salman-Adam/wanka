@@ -11,22 +11,22 @@ import ProductScreen from './PageRouter/ProductScreen/ProductScreen'
 import Menu from './PageRouter/Menu/Menu'
 const app = () => {
 
-  return (
-    <>
-      <Navbar />
-      <Container>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/product/:id' element={<ProductScreen />} />
-          <Route path='/Profile' element={<Profile />} />
-          <Route path='/Cart' element={<Cart />} />
-          <Route path='/Contact' element={<Contact />} />
-          <Route path='/Menu' element={<Menu />} />
-        </Routes>
-      </Container>
-      <Navigation />
-    </>
-  )
+    return (
+        <>
+            <Navbar />
+            <Container>
+                <Routes>
+                    <Route path='/' element={<Home />} />
+                    <Route path='/product/:id' element={<ProductScreen />} />
+                    <Route path='/Profile' element={<Profile />} />
+                    <Route path='/Cart' element={<Cart />} />
+                    <Route path='/Contact' element={<Contact />} />
+                    <Route path='/Menu' element={<Menu />} />
+                </Routes>
+            </Container>
+            <Navigation />
+        </>
+    )
 }
 
 export default app

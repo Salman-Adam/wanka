@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProductScreen.css'
+import {FaWhatsapp} from 'react-icons/fa'
 import { Link, useParams } from "react-router-dom"
 import Product from '../../Data/Products'
 import {FaHandPointUp} from 'react-icons/fa'
@@ -36,9 +37,7 @@ const ProductScreen = () => {
                             <div className='card-btn'>
                                 <button type='button'
                                  className={singleProduct.countInStock === 0 ? 'none' : 'on'}
-                                 disabled={singleProduct.countInStock === 0}>
-                                    شراء الان
-                                </button>
+                                 disabled={singleProduct.countInStock === 0}>اتمام عملية الشراء <FaWhatsapp /> </button>
                             </div>
                         </div>
                     </div>

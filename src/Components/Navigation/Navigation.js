@@ -1,52 +1,52 @@
 import React from 'react'
 import './Navigation.css'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { RiMenu2Fill, RiHome3Fill, RiShoppingCart2Fill, RiUser3Line, RiPhoneFill } from 'react-icons/ri'
 const Navigation = () => {
 
-    document.querySelectorAll('.item').forEach(li => {
-        li.addEventListener('click', function () {
-            document.querySelectorAll('.item').forEach(otherItem => {
-                otherItem.classList.remove('active');
-            });
-            this.classList.add('active');
-        });
-    });
+    // document.querySelectorAll('.item').forEach(li => {
+    //     li.addEventListener('click', function () {
+    //         document.querySelectorAll('.item').forEach(otherItem => {
+    //             otherItem.classList.remove('active');
+    //         });
+    //         this.classList.add('active');
+    //     });
+    // });
 
     return (
         <div className='Navigation'>
             <ul>
                 <li className='item'>
-                    <Link to="/Menu">
+                    <NavLink to="/Menu" >
                         <RiMenu2Fill />
                         <span>القائمة</span>
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='item'>
-                    <Link to="/Profile">
+                    <NavLink to="/Profile" >
                         <RiUser3Line />
                         <span>العروض</span>
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='item active'>
-                    <Link to="/">
+                    <NavLink to="/" >
                         <RiHome3Fill />
                         <span>الرئيسية</span>
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='item'>
-                    <Link to="/Contact">
+                    <NavLink to="/Contact" >
                         <RiPhoneFill />
                         <span>تواصل معنا</span>
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='Cart_Navigate item'>
-                    <Link to="/Cart">
+                    <NavLink to="/Cart" >
                         <em>22</em>
                         <RiShoppingCart2Fill />
                         <span>السلة</span>
 
-                    </Link>
+                    </NavLink>
                 </li>
             </ul>
         </div>

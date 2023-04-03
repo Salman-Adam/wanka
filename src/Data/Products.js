@@ -22,6 +22,8 @@ const Products = [
         countInStock: 10,
         rating: 5.0,
         numReviews: 12,
+        
+        discountValue: 0
     },
     {
         _id: "2",
@@ -34,6 +36,8 @@ const Products = [
         countInStock: 0,
         rating: 4.5,
         numReviews: 12,
+        
+        discountValue: 53
     },
     {
         _id: "3",
@@ -46,6 +50,8 @@ const Products = [
         countInStock: 10,
         rating: 4.5,
         numReviews: 12,
+        
+        discountValue: 43
     },
     {
         _id: "4",
@@ -58,6 +64,8 @@ const Products = [
         countInStock: 10,
         rating: 4.5,
         numReviews: 12,
+        
+        discountValue: 33
     },
     {
         _id: "5",
@@ -70,6 +78,8 @@ const Products = [
         countInStock: 10,
         rating: 4.5,
         numReviews: 12,
+        
+        discountValue: 40
     }
     ,
     {
@@ -83,6 +93,8 @@ const Products = [
         countInStock: 10,
         rating: 4.5,
         numReviews: 12,
+        
+        discountValue: 11
     }
     ,
     {
@@ -96,6 +108,8 @@ const Products = [
         countInStock: 10,
         rating: 4.5,
         numReviews: 12,
+        
+        discountValue: 23
     }
     ,
     {
@@ -109,6 +123,8 @@ const Products = [
         countInStock: 10,
         rating: 4.5,
         numReviews: 12,
+        
+        discountValue: 30
     }
     ,
     {
@@ -122,6 +138,8 @@ const Products = [
         countInStock: 10,
         rating: 4.5,
         numReviews: 12,
+        
+        discountValue: 53
     }
     ,
     {
@@ -135,6 +153,8 @@ const Products = [
         countInStock: 10,
         rating: 4.5,
         numReviews: 12,
+        
+        discountValue: 40
     }
 ]
 export default Products
