@@ -1,2 +1,5 @@
-export {default as Navigation} from '../Components/Navigation/Navigation'
 export {default as Container} from '../Components/Container/Container'
+export {default as GlobalButton} from '../Components/Buttons/GlobalButton'
+export {default as SecoundButton} from '../Components/Buttons/SecoundButton'
+export {default as Navbar} from '../Components/Navbar/Navbar'
+export {default as Header} from '../Components/Header/Header'

@@ -1,0 +1,14 @@
+.header {
+    min-height: 100vh;
+    background: var(--main-color-bg);
+    padding-top: 70px;
+    color: #fff;
+}
+/* .head-img {
+    position: relative;
+} */
+/* .head-img img{
+    position: absolute;
+    top: 0; 
+    left: 50%;
+} */

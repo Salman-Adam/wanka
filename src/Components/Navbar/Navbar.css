@@ -7,10 +7,18 @@
     padding-right: 10px;
     text-transform: uppercase;
 }
+.navbar-brand img{
+    width: 50%;
+}
 .navbar{
-    background: var(--main-color);
+    background: transparent;
     box-shadow: 0 4px 10px #00000030;
     
+}
+.navbar .nav-link {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 @media (max-width : 767px){
@@ -24,3 +32,4 @@
     }
 
 }
+
