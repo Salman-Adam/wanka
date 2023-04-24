@@ -1,0 +1,38 @@
+.Feat{
+    padding: 60px 0;
+    background: #f4f4f4;
+}
+/* .Feat .feat-title */
+.feat-content-card{
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.feat-content-card .feat-icon{
+    text-align: center;
+}
+.feat-content-card .feat-icon span{
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0  3px 15px #4444;
+}
+.feat-content-card  div:first-child{
+    border-radius: 5px;
+    background: rgb(4, 92, 75);
+    padding: 20px;
+}
+.feat-content-card h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.feat-content-card p{
+    font-size: 14px;
+    font-weight: 100;
+}

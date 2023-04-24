@@ -1,6 +1,6 @@
 :root {
-    /* --main-color : linear-gradient(-45deg, #29d514, #2275db) */
-    --main-color-bg : linear-gradient(to right, rgb(0 0 0 / 80%) 0%, rgb(61 197 103 / 80%) 100%), url(./Assest/img/hero-bg.jpg)
+    --main-color : linear-gradient(-45deg, #29d514, #2275db);
+    --main-color-bg : linear-gradient(-30deg, rgb(0 0 0 / 80%) 0%, rgb(61 197 103 / 80%) 100%), url(./Assest/img/hero-bg.jpg)
 }
 /* @import url("https://fonts.googleapis.com/css?family=Cairo");
 body{

@@ -1,0 +1,27 @@
+.Downlaod{
+    padding: 70px 0;
+}
+.Downlaod img{
+    max-width: 70%;
+}
+.Downlaod .row{
+    margin-bottom: 20px;
+}
+.downlaod-img{
+    text-align: center;
+}
+.downlaod-img , .downlaod-content {
+    margin-bottom: 20px;
+}
+.downlaod-content{
+    padding: 0 30px;
+    text-align: center;
+}
+@media (max-width: 767px){
+    .downlaod-content p{
+        font-size: 14px;
+    }
+    .downlaod-img{
+        margin: 20px 0;
+    }
+}

@@ -11,25 +11,19 @@
     width: 50%;
 }
 .navbar{
-    background: transparent;
+    background: #fff;
     box-shadow: 0 4px 10px #00000030;
     
 }
 .navbar .nav-link {
-    color: #fff;
+    color: #000000;
     font-weight: 400;
     font-size: 18px;
 }
 
 @media (max-width : 767px){
-    .navbar{
-        border-bottom: 1px solid #ccc;
-        padding: 0;
-        text-align: center;
+    .navbar .nav-link{
+        padding: 10px 20px
     }
-    .navbar-brand {
-        margin: auto;
-    }
-
 }
 

@@ -1,0 +1,37 @@
+.Step{
+    background-color: #f4f4f4;
+    color: #000000;
+    text-align: center;
+    padding: 70px 0;
+}
+.step-img{
+    padding: 0 0 50px 0;
+}
+.step-img img{
+    max-width: 50%;
+}
+.step-icon span{
+    background: #000000;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.step-num{
+    padding: 20px;
+}
+
+.step-content{
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 3px 15px #ccc3;
+}
+.step-content h2{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.step-content p{
+    font-size: 14px;
+    font-weight: 100;
+}

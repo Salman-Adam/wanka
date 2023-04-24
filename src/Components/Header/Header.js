@@ -1,14 +1,16 @@
 import React from 'react'
 import './Header.css'
-import {GlobalButton} from '../index'
+import GlobalButton from '../Buttons/GlobalButton'
 import img_phone1 from '../../Assest/img/phone_1.png'
 import img_phone2 from '../../Assest/img/phone_2.png'
+// import Particle from '../Particles/Particles'
 const Header = () => {
   return (
     <div className='header'>
+        {/* <Particle/> */}
         <div className='container'>
-            <section>
-                <div className="row">
+            <>
+                <div className="row padding-top">
                     <div className='col-md-6'>
                         <div className='head-content'>
                             <h1>Promote Your App with SoftLand</h1>
@@ -20,14 +22,12 @@ const Header = () => {
                     </div>
                     <div className='col-md-6'>
                         <div className='head-img'>
-                            <div>
                                 <img src={img_phone1} alt={img_phone1}/>
                                 <img src={img_phone2} alt={img_phone2}/>
-                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </>
         </div>
     </div>
   )
